@@ -1,10 +1,5 @@
-(defpackage :cl-batteries/opts-asd
-  (:use :cl :asdf))
-
-(in-package :cl-batteries/opts-asd)
-
-(defsystem :cl-batteries/opts
-  :name "cl-batteries/opts"
+(asdf:defsystem :boost-opts
+  :name "boost-opts"
   :version "1.0"
   :author "Jeffrey Massung"
   :license "Apache 2.0"

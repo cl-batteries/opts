@@ -17,14 +17,14 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/opts
+(defpackage :boost-opts
   (:use :cl)
   (:export
    #:parse-opts
    #:next-arg
    #:write-help))
 
-(in-package :cl-batteries/opts)
+(in-package :boost-opts)
 
 ;;; ----------------------------------------------------
 
